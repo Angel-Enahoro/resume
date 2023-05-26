@@ -1,0 +1,58 @@
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-size: 135%;
+}
+
+h3 {
+  font-size: 140%;
+}
+html {
+  font: 1em sans-serif;
+  color: black;
+}
+
+body {
+  color: black;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a {
+  color: rgb(108, 0, 232);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#top {
+  background-color: rgb(255, 254, 254);
+  color: rgb(0, 0, 0);
+}
+
+h6 {
+  font-size: 150%;
+}
+
+img {
+  border-radius: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 3px solid;
+  border-color: black;
+}
+
+#head {
+  background-color: rgb(112, 112, 167);
+}

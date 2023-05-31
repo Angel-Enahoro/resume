@@ -25,7 +25,7 @@ html {
   text-decoration: none;
   color: whitesmoke;
 }
-#back-to-top:hover . button {
+#back-to-top:hover > button {
   text-decoration: none;
   color: rgb(15, 14, 13);
 }
@@ -40,7 +40,7 @@ html {
 .nav-link {
   text-decoration: none;
   color: white;
-  margin: 0 4vw;
+  margin: 4vw;
 }
 
 .nav-link:hover {
@@ -69,15 +69,16 @@ button {
   color: whitesmoke;
   padding: 2rem;
   padding-bottom: 4rem;
-  height: 25vh;
 }
+
 .header-content {
   padding: 4rem;
 }
+
 #header-image {
   border-radius: 10%;
-  width: 300px;
-  height: 330px;
+  width: 100px;
+  height: 120px;
 
 }
 
@@ -85,6 +86,8 @@ main {
   margin-top: 10rem;
   margin-left: 2rem;
   font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 footer {
@@ -94,9 +97,69 @@ footer {
   padding: 5rem;
 }
  
+h1 {
+   font-size: 270%;
+}
 
-@media screen and (max-width: 600px) {
-    body { font-size: 10px;}
-    .header-
+@media screen and (max-width: 500px) {
+    body { 
+        font-size: 10px;
+    }
+    #top { 
+        width: 100%;
+    } 
+
+    html { 
+        margin: 0% auto;
+        padding: 0% auto; 
+    }
+    
+    #head {
+        width:100%;
+    }
+     
+    #navbar {
+        width: 100%;
+    }
+} 
+
+@media screen and (min-width: 768px) {
+    #header-image {
+        height: 350px;
+        width: 360px;
+        font-size: 200%;
+    }
+    h1 {
+        font-size: 400%;
+    } 
+    
+} 
+
+@media screen and (min-width: 768px) {
+    #header-image {
+        height: 350px;
+        width: 400px;
+    }
+   main {
+        margin-top: 3rem;
+   }
+   #navbar {
+        height: 20px;
+   }
+   .nav-link {
+        margin: 7vw;
+        font-size: medium;
+   }
+} 
  
+@media screen and (min-width: 1024px) {
+    footer {
+        padding: 3rem;
+    }
+    #textarea {
+        width: 600px;
+    }
+    #header-image { 
+        height: 400px;
+    }
 }

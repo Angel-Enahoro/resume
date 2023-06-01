@@ -162,4 +162,7 @@ h1 {
     #header-image { 
         height: 400px;
     }
+
+    #navbar {
+      height: 35px;}
 }
